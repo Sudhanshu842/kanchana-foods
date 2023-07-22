@@ -1,0 +1,22 @@
+@tailwind base;
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(transparent);
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(red);
+    border-radius: 14px;
+    border: 3px solid var(black);
+  }
+
+@tailwind components;
+@tailwind utilities;  
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
