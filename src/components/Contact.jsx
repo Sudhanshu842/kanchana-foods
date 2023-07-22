@@ -80,8 +80,11 @@ const Contact = () => {
                         </p>
 
                     </div>
-                    <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6 h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
-                        <form class="w-full max-w-5xl">
+                    <div className="mb-32 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6 h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
+                        <form 
+                        action="https://getform.io/f/4e96f353-e1ec-41c6-b549-3751292a4673"
+                        method='POST'
+                        class="w-full max-w-5xl">
                             <p className="mb-2 text-gray-800 font-serif font-semibold">
                                 PERSONAL DETAIL
                             </p>
