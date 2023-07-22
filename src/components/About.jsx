@@ -3,7 +3,7 @@ import tastelogo from '../assets/taste_logo.png'
 export const About = () => {
     return (
 
-        <div name='About' className="bg-[url('/src/assets/about_bg.jpg')] bg-top bg-contain md:bg-cover md:-translate-y-28 h-screen  w-full flex justify-center">
+        <div name='About' className="bg-[url('/src/assets/about_bg.jpg')] -z-20 bg-top bg-contain md:bg-cover md:-translate-y-28 h-fit sm:h-screen  w-full flex justify-center">
             <div className=' flex flex-col  justify-center max-w-7xl h-[80%]  pt-10 mt-10 '>
                 <div className='font-bold font-playfair text-xl md:text-4xl mb-4 text-center'>About</div>
                 

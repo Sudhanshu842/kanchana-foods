@@ -81,9 +81,9 @@ const Navbar = () => {
                     </a> */}
                 </div>
                 {nav && (
-                    <div className="md:hidden h-auto md:h-44 w-44 ml-8 sm:w-auto">
+                    <div className="md:hidden h-36 md:h-44 w-44 ml-8 sm:w-auto">
                         <div className="flex justify-center items-center px-2 ">
-                            <ul className='flex py-4 flex-col sm:flex-row justify-items-center md:hidden'>
+                            <ul className='flex flex-col sm:flex-row justify-items-center md:hidden'>
                                 {links.map(({ id, link }) => (
                                     <li
                                         key={id} className='flex m-auto sm:px-4 cursor-pointer capitalize mb-2 text-lg sm:text-xl font-playfair text-gray-700 hover:scale-105 hover:text-black duration-200'>

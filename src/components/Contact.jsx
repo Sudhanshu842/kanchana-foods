@@ -60,7 +60,7 @@ const Contact = () => {
     ]
     return (
         <div name='Contact' className="h-screen  w-full flex justify-center ">
-            <div className=' flex flex-col  justify-center h-[100%] pt-10 mt-20 w-full mx-8 md:mx-16 '>
+            <div className=' flex flex-col  justify-center h-[100%] pt-24 mt-40 w-full mx-8 md:mx-16 '>
                 <div className='font-bold font-playfair text-xl md:text-3xl mb-4 text-center'>DISTRIBUTORS ENQUIRY FORM <br />
                     <p className="mb-2 text-gray-800 text-lg font-medium font-serif">Looking forward to becoming a distributor?. Share your details here.</p></div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                         </p>
 
                     </div>
-                    <div className="mb-32 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6  h-[400px] md:h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
+                    <div className="mb-20 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6  h-[400px] md:h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
                         <form 
                         action="https://getform.io/f/4e96f353-e1ec-41c6-b549-3751292a4673"
                         method='POST'

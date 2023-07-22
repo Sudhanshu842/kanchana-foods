@@ -3,7 +3,7 @@ import React from 'react'
 
 const Topbar = () => {
   return (
-    <div name="Home" className='w-full h-16 bg-yellow-400 text-base items-center justify-center flex font-medium text-black'>
+    <div name="Home" className='w-full h-14 bg-yellow-400 text-base flex items-center justify-center  font-medium text-black'>
       <div className=' flex justify-stretch items-center overflow-hidden '>
         <div className='animate-scrolltext flex  whitespace-nowrap w-full'>
 

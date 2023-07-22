@@ -237,11 +237,11 @@ const Products = () => {
 
     // console.log(allCat, prodNamkeen, prodWafer, prodFryrum, prodOther);
     return (
-        <div name='Products' className="bg-[url('/src/assets/about_bg.jpg')] bg-center bg-contain md:bg-cover md:-translate-y-28 h-screen w-full ">
+        <div name='Products' className="bg-[url('/src/assets/about_bg.jpg')] bg-center bg-contain md:bg-cover md:-translate-y-28 h-fit sm:h-screen w-full ">
             <div className='max-w-screen-xl mx-auto h-full'>
 
-                <div className="text-center pt-32 pb-8">
-                    <h1 className="font-bold font-playfair text-xl md:text-4xl mb-4">"Fuel Your Day with Bhojaji Snacks!"</h1>
+                <div className="text-center pt-24 mt-4 md:pt-28 pb-8">
+                    <h1 className="font-bold font-playfair text-xl md:text-3xl mb-4">"Fuel Your Day with Bhojaji Snacks!"</h1>
 
                 </div>
                 <div className="flex items-center justify-center flex-wrap">
@@ -254,14 +254,14 @@ const Products = () => {
 
                 </div>
 
-                <section className="w-[80%] mx-auto flex flex-cols-2 lg:flex-cols-4 md:flex-cols-3 gap-y-20 gap-x-14 mt-6  p-8 flex-nowrap bg-blend-overlay scrolling-touch  overflow-x-scroll items-start snap-mandatory">
+                <section className="w-[80%] h-[100%] mx-auto flex flex-cols-2 lg:flex-cols-4 md:flex-cols-3 gap-y-20 gap-x-14  z-10 flex-nowrap bg-blend-overlay scrolling-touch  overflow-x-scroll items-start snap-mandatory">
 
                     {allCat && (<>
 
                         {prodFryrum && (<>
                             {product2.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-60 md:h-64 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -287,7 +287,7 @@ const Products = () => {
                         {prodNamkeen && (<>
                             {product1.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-60 md:h-64 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -312,7 +312,7 @@ const Products = () => {
                         {prodWafer && (<>
                             {product3.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-60 md:h-64 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -339,8 +339,8 @@ const Products = () => {
 
                         {prodOther && (<>
                             {product4.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
-                                <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                <div key={id} className=" w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
+                                    <img src={src} alt="Product" class="h-60 md:h-64 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
