@@ -60,7 +60,7 @@ const Contact = () => {
     ]
     return (
         <div name='Contact' className="h-screen  w-full flex justify-center ">
-            <div className=' flex flex-col  justify-center h-[100%] pt-10 mt-20 w-full mx-16 '>
+            <div className=' flex flex-col  justify-center h-[100%] pt-10 mt-20 w-full mx-8 md:mx-16 '>
                 <div className='font-bold font-playfair text-xl md:text-3xl mb-4 text-center'>DISTRIBUTORS ENQUIRY FORM <br />
                     <p className="mb-2 text-gray-800 text-lg font-medium font-serif">Looking forward to becoming a distributor?. Share your details here.</p></div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                         </p>
 
                     </div>
-                    <div className="mb-32 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6 h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
+                    <div className="mb-32 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6  h-[400px] md:h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
                         <form 
                         action="https://getform.io/f/4e96f353-e1ec-41c6-b549-3751292a4673"
                         method='POST'
@@ -90,20 +90,20 @@ const Contact = () => {
                             </p>
 
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-2/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-2/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Full-Name*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Name-Surname " required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
-                                <div class="w-full md:w-1/4 px-3">
+                                <div class="w-[95%] md:w-1/4 px-3">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                         Age*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="number" placeholder="xx" ></input>
                                 </div>
-                                <div class="w-full md:w-1/4 px-3">
+                                <div class="w-[95%] md:w-1/4 px-3">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                         Mobile*
                                     </label>
@@ -111,13 +111,13 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         City/Town/District/Village*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Nagpur"></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         State
                                     </label>
@@ -133,7 +133,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                         Zip
                                     </label>
@@ -141,7 +141,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-2/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-2/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Email id*
                                     </label>
@@ -165,14 +165,14 @@ const Contact = () => {
                             </p>
 
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-2/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-2/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Name Of the Firm*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="" required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
-                                <div class="w-full md:w-2/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-2/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Full Address Of the Firm*
                                     </label>
@@ -181,19 +181,19 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Current Nature Of Business
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         No.of Year Experience in current Business*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                         Business Type*
                                     </label>
@@ -211,20 +211,20 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         Annual Turnover
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Your Current Business Brief Description of*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
                                 </div>
 
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Infrastructure (Storage Space ,Etc.)
                                     </label>
@@ -233,19 +233,19 @@ const Contact = () => {
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
 
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Vehicle (Type, Model, How Many)
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         Capacity to Invest*
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                         Existing Manpower/Salesman*
                                     </label>
@@ -263,13 +263,13 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
-                                <div class="w-full md:w-1/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Reference By : Name / Agency Name
                                     </label>
                                     <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
                                 </div>
-                                <div class="w-full md:w-1/4 px-3 mb-6 md:mb-0">
+                                <div class="w-[95%] md:w-1/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Reference By : City Name
                                     </label>

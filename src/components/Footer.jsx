@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer class="bg-white rounded-lg shadow m-4 h-28 md:h-40">
+        <footer class="bg-white rounded-lg shadow max-h-screen">
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 {/* <div class="sm:flex sm:items-center sm:justify-between">
 
@@ -23,7 +23,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div> */}
-                <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+                <hr class="sm:mx-auto border-gray-700 lg:my-8" />
                 <span class="block text-base text-black sm:text-center">© 2023 <a href="kanchanafoods.com" class="hover:underline">KFB-Bhojaji™</a>. All Rights Reserved.</span>
             </div>
         </footer>

@@ -86,7 +86,7 @@ const Navbar = () => {
                             <ul className='flex py-4 flex-col sm:flex-row justify-items-center md:hidden'>
                                 {links.map(({ id, link }) => (
                                     <li
-                                        key={id} className='flex m-auto sm:px-4 cursor-pointer capitalize mb-2 text-2xl sm:text-xl font-playfair text-gray-700 hover:scale-105 hover:text-black duration-200'>
+                                        key={id} className='flex m-auto sm:px-4 cursor-pointer capitalize mb-2 text-lg sm:text-xl font-playfair text-gray-700 hover:scale-105 hover:text-black duration-200'>
                                         <Link to={link} smooth duration={500} className='flex flex-col justify-normal items-center'>
                                             {link}
                                         </Link>

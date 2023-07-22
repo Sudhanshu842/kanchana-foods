@@ -235,7 +235,7 @@ const Products = () => {
         },
     ]
 
-    console.log(allCat, prodNamkeen, prodWafer, prodFryrum, prodOther);
+    // console.log(allCat, prodNamkeen, prodWafer, prodFryrum, prodOther);
     return (
         <div name='Products' className="bg-[url('/src/assets/about_bg.jpg')] bg-center bg-contain md:bg-cover md:-translate-y-28 h-screen w-full ">
             <div className='max-w-screen-xl mx-auto h-full'>
