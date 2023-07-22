@@ -6,7 +6,7 @@ import { About } from "./components/About";
 import Topbar from "./components/Topbar";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div className={(loading ? 'block' : 'hidden')}>
-        <div className="flex justify-center items-center h-screen w-full">
+        <div className="flex fixed justify-center items-center h-screen bg-white w-full bg-fixed">
           <img src={gif1} alt="" className=""></img>
         </div>
       </div>
@@ -34,7 +34,7 @@ function App() {
         <Products/>
         <About />
         <Contact/>
-        <Footer/>
+        {/* <Footer/> */}
         
       </div>
     </>

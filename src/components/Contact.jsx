@@ -287,8 +287,12 @@ const Contact = () => {
                                 </div>
                             </div>
                         </form>
+                        
                     </div>
+                    
                 </div>
+                <hr class="sm:mx-auto border-gray-700 lg:my-8" />
+                <span class="block text-base text-black sm:text-center">© 2023 <a href="kanchanafoods.com" class="hover:underline">KFB-Bhojaji™</a>. All Rights Reserved.</span>
             </div>
         </div>
     )
