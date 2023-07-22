@@ -48,7 +48,7 @@ const Navbar = () => {
     return (
         <>
             <nav  // eslint-disable-next-line
-                className={"z-40 mx-auto top-0 flex items-center justify-evenly md:justify-between sticky max-w-7xl h-auto sm:h-24 md:h-32 bg-white rounded-xl md:bg-opacity-70 bg-opacity-100" + " " + navColor}>
+                className={"z-40 mx-auto top-0 flex items-center justify-evenly md:justify-between sticky max-w-7xl h-auto sm:h-26 md:h-28 bg-white rounded-xl md:bg-opacity-70 bg-opacity-100" + " " + navColor}>
                 <div className="flex md:ml-12" >
                     <a href="kanchanafoods.com">
                         <img className="h-24 md:h-32 w-auto" src={logo} alt="Bhojaji" ></img>

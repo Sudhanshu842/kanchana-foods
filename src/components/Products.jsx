@@ -254,14 +254,14 @@ const Products = () => {
 
                 </div>
 
-                <section className="w-[80%] mx-auto flex flex-cols-2 lg:flex-cols-4 md:flex-cols-3 gap-y-20 gap-x-14 mt-10 mb-5 p-8 flex-nowrap bg-blend-overlay scrolling-touch  overflow-x-scroll items-start snap-mandatory">
+                <section className="w-[80%] mx-auto flex flex-cols-2 lg:flex-cols-4 md:flex-cols-3 gap-y-20 gap-x-14 mt-6  p-8 flex-nowrap bg-blend-overlay scrolling-touch  overflow-x-scroll items-start snap-mandatory">
 
                     {allCat && (<>
 
                         {prodFryrum && (<>
                             {product2.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-80 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -287,7 +287,7 @@ const Products = () => {
                         {prodNamkeen && (<>
                             {product1.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-80 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -312,7 +312,7 @@ const Products = () => {
                         {prodWafer && (<>
                             {product3.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-80 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
@@ -340,7 +340,7 @@ const Products = () => {
                         {prodOther && (<>
                             {product4.map(({ src, title, id, price1, weight1, price2, weight2, price3, weight3 }) => (
                                 <div key={id} className="w-52 sm:w-72 bg-transparent shadow-md rounded-xl duration-500 hover:shadow-gray-500 hover:scale-105 hover:shadow-xl">
-                                    <img src={src} alt="Product" class="h-80 w-52 sm:w-72 object-contain rounded-t-xl" />
+                                    <img src={src} alt="Product" class="h-64 md:h-72 w-52 sm:w-72 object-contain rounded-t-xl" />
                                     <div className="px-4 py-3 w-52 sm:w-72 bg-white">
                                         <p className="text-lg font-bold text-black truncate block capitalize">{title}</p>
                                         <div className="flex items-center mx-auto">
