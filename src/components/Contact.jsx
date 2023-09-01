@@ -2,50 +2,50 @@ import React from 'react'
 
 const Contact = () => {
     const states = [
-        { st: "Andaman and Nicobar Islands" },
-        { st: "Andhra Pradesh" },
-        { st: "Arunachal Pradesh" },
-        { st: "Assam" },
-        { st: "Bihar" },
-        { st: "Chandigarh" },
-        { st: "Chhattisgarh" },
-        { st: "Dadra and Nagar Haveli" },
-        { st: "Daman and Diu" },
-        { st: "Delhi" },
-        { st: "Goa" },
-        { st: "Gujarat" },
-        { st: "Haryana" },
-        { st: "Himachal Pradesh" },
-        { st: "Jammu and Kashmir" },
-        { st: "Jharkhand" },
-        { st: "Karnataka" },
-        { st: "Kerala" },
-        { st: "Ladakh" },
-        { st: "Lakshadweep" },
-        { st: "Madhya Pradesh" },
-        { st: "Maharashtra" },
-        { st: "Manipur" },
-        { st: "Meghalaya" },
-        { st: "Mizoram" },
-        { st: "Nagaland" },
-        { st: "Odisha" },
-        { st: "Puducherry" },
-        { st: "Punjab" },
-        { st: "Rajasthan" },
-        { st: "Sikkim" },
-        { st: "Tamil Nadu" },
-        { st: "Telangana" },
-        { st: "Tripura" },
-        { st: "Uttar Pradesh" },
-        { st: "Uttarakhand" },
-        { st: "West Bengal" }
+        { st: "Andaman and Nicobar Islands",value:"Andaman and Nicobar Islands" },
+        { st: "Andhra Pradesh",value:"Andhra Pradesh" },
+        { st: "Arunachal Pradesh", value:"Arunachal Pradesh" },
+        { st: "Assam", value:"Assam" },
+        { st: "Bihar", value:"Bihar" },
+        { st: "Chandigarh", value:"Chandigarh" },
+        { st: "Chhattisgarh", value:"Chhattisgarh" },
+        { st: "Dadra and Nagar Haveli", value:"Dadra and Nagar Haveli" },
+        { st: "Daman and Diu", value:"Daman and Diu" },
+        { st: "Delhi", value:"Delhi" },
+        { st: "Goa", value:"Goa" },
+        { st: "Gujarat", value:"Gujarat" },
+        { st: "Haryana", value:"Haryana" },
+        { st: "Himachal Pradesh", value:"Himachal Pradesh" },
+        { st: "Jammu and Kashmir", value:"Jammu and Kashmir" },
+        { st: "Jharkhand", value:"Jharkhand" },
+        { st: "Karnataka", value:"Karnataka" },
+        { st: "Kerala", value:"Kerala" },
+        { st: "Ladakh", value:"Ladakh" },
+        { st: "Lakshadweep", value:"Lakshadweep" },
+        { st: "Madhya Pradesh", value:"Madhya Pradesh" },
+        { st: "Maharashtra", value:"Maharashtra" },
+        { st: "Manipur", value:"Manipur" },
+        { st: "Meghalaya", value:"Meghalaya" },
+        { st: "Mizoram", value:"Mizoram" },
+        { st: "Nagaland", value:"Nagaland" },
+        { st: "Odisha", value:"Odisha" },
+        { st: "Puducherry", value:"Puducherry" },
+        { st: "Punjab", value:"Punjab" },
+        { st: "Rajasthan", value:"Rajasthan" },
+        { st: "Sikkim", value:"Sikkim" },
+        { st: "Tamil Nadu", value:"Tamil Nadu" },
+        { st: "Telangana", value:"Telangana" },
+        { st: "Tripura", value:"Tripura" },
+        { st: "Uttar Pradesh", value:"Uttar Pradesh" },
+        { st: "Uttarakhand", value:"Uttarakhand" },
+        { st: "West Bengal", value:"West Bengal" }
 
     ]
     const bussiness = [
-        { type: 'Marketing' },
-        { type: 'Trading' },
-        { type: 'Distributor' },
-        { type: 'Other' },
+        { type: 'Marketing', value:'Marketing' },
+        { type: 'Trading', value:'Trading' },
+        { type: 'Distributor', value:'Distributor' },
+        { type: 'Other', value:'Other' },
 
     ]
     const power = [
@@ -82,7 +82,7 @@ const Contact = () => {
                     </div>
                     <div className="mb-20 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-9/12 md:px-3 lg:px-6  h-[400px] md:h-[500px] overflow-y-scroll flex flex-nowrap shadow-md">
                         <form 
-                        action="https://getform.io/f/4e96f353-e1ec-41c6-b549-3751292a4673"
+                        action="https://getform.io/f/f843d3d7-3e86-4a96-8f88-5c534172f2be"
                         method='POST'
                         class="w-full max-w-5xl">
                             <p className="mb-2 text-gray-800 font-serif font-semibold">
@@ -94,20 +94,26 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Full-Name*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Name-Surname " required></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" 
+                                    name='full-name'
+                                    placeholder="Name-Surname " required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div class="w-[95%] md:w-1/4 px-3">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                         Age*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="number" placeholder="xx" ></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="number" 
+                                    name='age'
+                                    placeholder="xx" required></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/4 px-3">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
                                         Mobile*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="number" placeholder="+91-xxxxxxxxxx"></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" 
+                                    name='mobile'
+                                    placeholder="+91-xxxxxxxxxx" required></input>
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
@@ -115,17 +121,19 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         City/Town/District/Village*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder="Nagpur"></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" 
+                                    name='city/town/district/village'
+                                    placeholder="Nagpur" required></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         State
                                     </label>
                                     <div class="relative">
-                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name='client-state' required>
 
-                                            {states.map(({ st, id }) => (
-                                                <option>{st}</option>
+                                            {states.map(({ st, value }) => (
+                                                <option value={value}>{st}</option>
                                             ))}
                                         </select>
                                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
@@ -135,9 +143,11 @@ const Contact = () => {
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
-                                        Zip
+                                        Pin Code
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210"></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="number"
+                                    name='pin-code'
+                                    placeholder="440001" required></input>
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
@@ -145,7 +155,7 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Email id*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="email" placeholder="Jane" required></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="email" name='email' placeholder="" required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                             </div>
@@ -169,14 +179,14 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Name Of the Firm*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="" required></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" name='name-of-firm' placeholder="" required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                                 <div class="w-[95%] md:w-2/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                                         Full Address Of the Firm*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="" required></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" name='address-of-firm' placeholder="" required></input>
                                     {/* <p class="text-red-500 text-xs italic">Please fill out this field.</p> */}
                                 </div>
                             </div>
@@ -185,23 +195,24 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Current Nature Of Business
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text"
+                                    name='current-nature-of-business' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         No.of Year Experience in current Business*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="business-experience54772005252" name='age' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                         Business Type*
                                     </label>
                                     <div class="relative">
-                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name='client-business-type' >
 
-                                            {bussiness.map(({ type, id }) => (
-                                                <option>{type}</option>
+                                            {bussiness.map(({ type, value }) => (
+                                                <option value={value}>{type}</option>
                                             ))}
                                         </select>
                                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
@@ -215,20 +226,20 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         Annual Turnover
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" name='annual-turnover' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Your Current Business Brief Description of*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" name='business-description' placeholder=""></input>
                                 </div>
 
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Infrastructure (Storage Space ,Etc.)
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" name='infrastructure' placeholder=""></input>
                                 </div>
                             </div>
                             <div class="flex flex-wrap -mx-3 mb-6">
@@ -237,23 +248,23 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Vehicle (Type, Model, How Many)
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" name='vehicale-info' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-state">
                                         Capacity to Invest*
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="number" name='investment-capacity' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-zip">
                                         Existing Manpower/Salesman*
                                     </label>
                                     <div class="relative">
-                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                        <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state" name='client-manpower'>
 
-                                            {power.map(({ range, id }) => (
-                                                <option>{range}</option>
+                                            {power.map(({ range, value }) => (
+                                                <option value={value}>{range}</option>
                                             ))}
                                         </select>
                                         <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
@@ -267,13 +278,13 @@ const Contact = () => {
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Reference By : Name / Agency Name
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" name='ref-by-name' placeholder=""></input>
                                 </div>
                                 <div class="w-[95%] md:w-1/4 px-3 mb-6 md:mb-0">
                                     <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-city">
                                         Reference By : City Name
                                     </label>
-                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" placeholder=""></input>
+                                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-city" type="text" name='ref-by-city' placeholder=""></input>
                                 </div>
 
                             </div>
@@ -281,7 +292,7 @@ const Contact = () => {
                             <div class="md:flex md:items-center pb-6">
                                 <div class="md:w-1/3"></div>
                                 <div class="md:w-2/3">
-                                    <button class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                                    <button class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">
                                         Submit
                                     </button>
                                 </div>

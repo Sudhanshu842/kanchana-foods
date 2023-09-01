@@ -9,6 +9,7 @@ const Topbar = () => {
 
           Delivering PAN India & Free Shipping across India on Orders above ₹500/- || Estimated Standard Delivery Timeline of 5-7 Working Days, Though Delivery Time May Vary Depending On Pin Code ||
           CAUTION - Beware of Fraud!!  We do not accept/encourage online payments with respect to super stockist/distributorship/franchisee/employment. ||
+          
         </div>
       </div>
     </div>

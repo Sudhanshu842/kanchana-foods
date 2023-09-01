@@ -56,7 +56,7 @@ module.exports = {
 
         scrollText: {
           from: { transform: 'translateX(100%)' },
-          to: { transform: 'translateX(-50%)' }
+          to: { transform: 'translateX(-100%)' }
         }
       },
 
