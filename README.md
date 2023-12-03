@@ -11,8 +11,8 @@ Check out website [here](https://kanchanfoods.com) !
 
 Check out some screenshots below:
 
-![Screenshot 1]()
-![Screenshot 2]()
+![Screenshot 1](Project_screenshots/screenshot-1.png)
+![Screenshot 2](Project_screenshots/screenshots-2.png)
 
 ## Technologies Used
 
